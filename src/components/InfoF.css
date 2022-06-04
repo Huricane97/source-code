@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "FredokaOne";
+    src: local("Fredoka"),
+     url("../fonts/FredokaOne-Regular.ttf") format("truetype");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Eczar";
+    src: local("Eczar"),
+     url("../fonts/Eczar-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+.firstheading{
+    font-family: Eczar;
+    color: #f8f8f8 !important;
+    text-align: left;
+}
+.secondheading{
+  font-family: Eczar;
+  color: white !important;
+  font-size: 15px;
+  font-weight: 200 !important;
+  text-align: left;
+}

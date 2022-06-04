@@ -1,0 +1,224 @@
+.Hero{
+    background: url('../img/M1.mp4');  
+        width:100%; 
+        height:800px; 
+    overflow: hidden;
+    padding: 20px;
+    font-family: "DM Sans", sans-serif;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    background-size: cover; 
+    
+}
+@media only screen and (min-width: 450px) {
+    .Hero { 
+        background: url('../img/M1.mp4');  
+        width:100%; 
+        height:100%; 
+    overflow: hidden;
+    padding: 20px;
+    font-family: "DM Sans", sans-serif;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    background-size: cover;
+       
+        
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    .Hero { 
+        background: url('../img/M1.mp4'); 
+        width:100%; 
+         height:1000px; 
+         background-repeat: no-repeat; 
+         background-size: contain;
+         background-attachment: scroll;
+     }
+  }
+ 
+  /* video {
+    transform: translate(-50%, -50%);
+  position:inherit;
+  contain:size;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  }
+
+  @media only screen and (min-width: 450px) {
+    video {
+        transform: translate(-50%, -50%);
+      position:absolute;
+      contain:size;
+      top: 50%;
+      left: 50%;
+      
+      }
+}
+
+@media only screen and (min-width: 1550px) {
+    video {
+        transform: translate(-50%, -50%);
+      position:absolute;
+      contain:size;
+      top: 50%;
+      left: 50%;
+      
+      }
+  } */
+.bgColor{
+    position: scroll; /* Sit on top of the page content */
+  display: cover; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: #0c134cab;  Black background with opacity */
+  cursor: pointer;
+}
+.secondcol{
+    /* margin-right: 20px; 
+     margin-left: 50px;
+    padding: 50px 10px 50px 10px;
+    margin-top: 1px;   */
+    margin-right: auto;
+        margin-left: auto;
+        padding: 50px 0px 50px 0px;;
+        width:50%;
+}
+@media only screen and (min-width: 450px) {
+    .secondcol{
+    /* margin-right: 10px; 
+    margin-left: 50px;
+    padding: 150px 150px 50px 150px; */
+    /* margin-top: 170px;  */
+    margin-right: auto;
+        margin-left: auto;
+        padding: 50px 0px 50px 0px;;
+        width:50%;
+}
+  }
+.pt-5{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.FontFam{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(255, 255, 255);
+}
+h1{
+    font-size: 4.5rem;
+}
+h2{
+    color:rgb(255, 255, 255);
+}
+h5{
+    color:rgb(255, 255, 255);  
+}
+
+.FontFamp{
+    font-family: MuseoSlab;
+    color:white;
+    font-size: 18px;
+}
+
+.row{
+    width:50%; 
+    text-align-last: center;
+
+}
+.firstcol{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background: #0c134ca4;
+    width:100%;
+    text-align: left;
+    border-color: #0C144C;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 15px;
+    margin: 20px;
+    
+}
+@media only screen and (max-width: 900px) {
+    .firstcol{
+        display: none;
+        
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .firstcol{
+        margin-right: auto;
+        margin-left: auto;
+        padding: 50px;
+        background: #0000006b;
+        width:35%;
+        text-align-last: left;
+        border-color: #030305;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 5px;
+        margin: 20px;
+        margin-top: 150px;
+        
+    }
+}
+.firstcol1{
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px;
+        background: #00000077;
+        width:80%;
+        text-align: center;
+        border-color: #030305;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 5px;
+    
+}
+@media only screen and (min-width: 450px) {
+    .firstcol1{
+        padding-top: 50px;
+        background: #00000081;
+        width:40%;
+        text-align-last: center;
+        border-color: #030305;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 5px;
+        backdrop-filter: blur(5px);
+        margin-top: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+}
+.row1{
+    width:100%;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+/* #myVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 150%;
+  min-height: 500%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

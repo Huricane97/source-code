@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "AttackGraffiti";
+  src: local("Attack Graffiti"),
+   url("../fonts/Attack-Graffiti.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "MuseoSlab";
+  src: local("MuseoSlab"),
+   url("../fonts/Museo_Slab_300.otf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Eczar";
+  src: local("Eczar"),
+   url("../fonts/Eczar-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+.ColorNew {
+  color:#000000 ;
+  font-size: 25px;
+  
+}
+
+.aText{
+    font-family: Eczar;
+            color:  #fcdc1f;
+            font-weight: bold;
+            text-align: center;
+            padding-left: 20px;
+            
+}
+.navbar-toggler{
+  background-color: transparent;
+    border: 1px solid white !important;
+
+}
+.navbar-toggler span{
+    border: 1px solid white !important;
+
+}
+.Col111{
+  margin:10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 40px;
+  width:40px;
+}
+.Col12{
+  display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-around;
+}
